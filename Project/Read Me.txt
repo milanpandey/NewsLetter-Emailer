@@ -11,7 +11,7 @@ The referenced External libraries are inside "imported Libraries" Folder.
 
 The "Flow Charts" Folder Contains the Flow Charts of Both (NewsLetter and Emailer) classes.
 
-The SQL folder has the sql file for CD database.Just import and run it to create database with 10 entries.
+The SQL folder has the sql file for CD database.Just import and run it to create database with 3 entries.
 
 
 IMPORTANT!!
