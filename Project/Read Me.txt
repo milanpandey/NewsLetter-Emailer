@@ -1,0 +1,30 @@
+Email is the Default package.
+In Eclipse 
+1>you must paste this folder inside the default workspace folder
+
+2>Eclipse->File->New->Java Project-> Project name = Email -> Finish.
+
+3> Refresh WorkSpace.
+
+the Email Folder contains the files NewsLetter.java and Emailer.java in the "src" folder. 
+The referenced External libraries are inside "imported Libraries" Folder.
+
+The "Flow Charts" Folder Contains the Flow Charts of Both (NewsLetter and Emailer) classes.
+
+The SQL folder has the sql file for CD database.Just import and run it to create database with 10 entries.
+
+
+IMPORTANT!!
+
+the Email\config.properties file is where the login details for the database and the SMTP server are to be provided.
+
+The Master Machine is the Machine which is incharge of Reinitializing the emailqueue Database
+
+
+Working:
+The Number Emails handled by a single Machine Depends on the number of Active Machines.
+Each Machine Distributes its set of emails between its threads.
+
+Every time a new Machine Enters, redistribution of work load takes place.
+
+After Every Machine has finished working, master Machine resets the database
