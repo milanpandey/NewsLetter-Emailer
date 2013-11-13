@@ -1,7 +1,7 @@
 NewsLetter-Emailer
 ==================
 
-A distributed MultiThreaded java Application that Sends SMTP Emails read from a database.
+A distributed MultiThreaded java Application that Sends SMTP Emails to ids read from a database.
 
 
 Working:
